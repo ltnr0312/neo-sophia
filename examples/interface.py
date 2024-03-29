@@ -124,7 +124,7 @@ def main():
         search_button.click(
             format_search, inputs=text_input, outputs=text_output)
 
-    demo.launch()
+    demo.launch(share=True)
 
 
 if __name__ == '__main__':
